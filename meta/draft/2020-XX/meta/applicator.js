@@ -8,14 +8,9 @@ module.exports = `{
 
     "title": "Applicator vocabulary meta-schema",
     "properties": {
-        "additionalItems": { "$dynamicRef": "#" },
+        "items": { "$dynamicRef": "#" },
         "unevaluatedItems": { "$dynamicRef": "#" },
-        "items": {
-            "anyOf": [
-                { "$dynamicRef": "#" },
-                { "$ref": "#/$defs/schemaArray" }
-            ]
-        },
+        "prefixItems": { "$ref": "#/$defs/schemaArray" },
         "contains": { "$dynamicRef": "#" },
         "additionalProperties": { "$dynamicRef": "#" },
         "unevaluatedProperties": { "$dynamicRef": "#" },
