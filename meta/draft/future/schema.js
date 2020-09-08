@@ -1,13 +1,13 @@
 module.exports = `{
-    "$schema": "https://json-schema.org/draft/2020-XX/schema",
-    "$id": "https://json-schema.org/draft/2020-XX/schema",
+    "$schema": "https://json-schema.org/draft/future/schema",
+    "$id": "https://json-schema.org/draft/future/schema",
     "$vocabulary": {
-        "https://json-schema.org/draft/2020-XX/vocab/core": true,
-        "https://json-schema.org/draft/2020-XX/vocab/applicator": true,
-        "https://json-schema.org/draft/2020-XX/vocab/validation": true,
-        "https://json-schema.org/draft/2020-XX/vocab/meta-data": true,
-        "https://json-schema.org/draft/2020-XX/vocab/format": false,
-        "https://json-schema.org/draft/2020-XX/vocab/content": true
+        "https://json-schema.org/draft/future/vocab/core": true,
+        "https://json-schema.org/draft/future/vocab/applicator": true,
+        "https://json-schema.org/draft/future/vocab/validation": true,
+        "https://json-schema.org/draft/future/vocab/meta-data": true,
+        "https://json-schema.org/draft/future/vocab/format": false,
+        "https://json-schema.org/draft/future/vocab/content": true
     },
     "$dynamicAnchor": "",
 
